@@ -3,5 +3,12 @@
 
 /* Variables */
 :root{
-
+   --ColorHeader:#03A9F4;
+   --ColorHero:#D22B1F;
+   --ColorContent:#119A22;
+   --ColBorCont:#6D6D6D;
+   --ColorSidebar:#673AB7;
+   --ColorFooter:#616161;
+   --ColorFuente:#fafafa;
+   
 }

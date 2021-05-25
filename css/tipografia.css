@@ -3,5 +3,6 @@
 
 /* Variables */
 :root{
-    
+   --SizeFuente:18px; 
+   --FamiliaFuente:sans-serif;
 }

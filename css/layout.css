@@ -1,2 +1,44 @@
 /* LAYOUT */
 /* ***** */
+body{
+    display:flex;
+    justify-content:center;
+    font-family:var(--FamiliaFuente);
+    color:var(--ColorFuente);
+    font-size:var(--SizeFuente);
+}
+
+header,.hero,.content,.sidebar,footer{
+    padding:10px;
+}
+
+.contenedor{
+    flex-basis:600px;
+    border:2px solid var(--ColBorCont);
+    padding:5px;
+    margin:10px 0 0 0;
+}
+
+.hero{
+    background-color:var(--ColorHero);
+    height:120px;
+    margin:0 0 5px 0;
+}
+
+.contenido{
+    display:flex;
+    height:500px;
+    margin:0 0 5px 0;
+}
+
+.content{
+    background-color:var(--ColorContent);
+    flex-grow:2;
+    margin:0 5px 0 0;
+}
+
+.sidebar{
+    background-color:var(--ColorSidebar);
+    flex-grow:1;
+}
+
